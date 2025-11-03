@@ -14,27 +14,23 @@ typescript-dsa/
 │   │   ├── static-array/
 │   │   │   ├── StaticArray.ts
 │   │   │   └── StaticArray.test.ts
-│   │   └── problems/
+│   │   │   └── problems/
 │   ├── linked-list/
-│   ├── stacks/
-│   ├── queues/
+│   ├── stack/
 │   └── ...
 │
 ├── algorithms/
 │   ├── sorting/
 │   │   ├── bubble-sort/
 │   │   ├── quick-sort/
+│   │   └── problems/
 │   │   └── ...
-│   ├── searching/
-│   │   ├── binary-search/
-│   │   └── ...
-│   └── problems/
 ```
 
 
 Each main topic (like arrays or sorting) is split into:
 - **Implementation** → core data structure or algorithm with test cases
-- **Problems** → practice exercises using that implementation along with test cases
+- **Problems** → practice exercises along with test cases
 
 ---
 
