@@ -1,0 +1,27 @@
+{
+  "name": "typescript-dsa",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --coverage",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3",
+  "devDependencies": {
+    "@biomejs/biome": "2.3.2",
+    "@types/node": "^24.8.1",
+    "husky": "^9.1.7",
+    "jest": "^30.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "ultracite": "6.1.0"
+  },
+  "dependencies": {
+    "@jest/globals": "^30.2.0",
+    "@types/jest": "^30.0.0",
+    "ts-jest": "^29.4.5"
+  }
+}
