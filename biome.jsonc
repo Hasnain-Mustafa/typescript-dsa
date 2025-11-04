@@ -18,6 +18,9 @@
   ],
   "linter": {
     "rules": {
+      "style": {
+        "useForOf": "off"
+      },
       "nursery": {
         "noIncrementDecrement": {
           "level": "error",
