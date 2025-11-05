@@ -1,6 +1,6 @@
 import { removeElement } from "./leetcode-27-remove-element";
 
-describe("LeetCode 1470 - removeElement the Array", () => {
+describe("LeetCode 27 - removeElement", () => {
   test("case 1", () => {
     const result = removeElement([3, 2, 2, 3], 3);
     expect(result).toEqual(2);
