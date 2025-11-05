@@ -19,7 +19,8 @@
   "linter": {
     "rules": {
       "style": {
-        "useForOf": "off"
+        "useForOf": "off",
+        "useShorthandAssign": "off"
       },
       "nursery": {
         "noIncrementDecrement": {
