@@ -12,17 +12,19 @@ typescript-dsa/
 ├── data-structures/
 │   ├── arrays/
 │   │   ├── static-array/
-│   │   │   ├── StaticArray.ts
-│   │   │   └── StaticArray.test.ts
-│   │   │   └── problems/
+│   │   │   ├── static-array.ts
+│   │   │   └── static-array.test.ts
+│   │   ├── problems/
 │   ├── linked-list/
 │   ├── stack/
 │   └── ...
 │
 ├── algorithms/
-│   ├── sorting/
-│   │   ├── bubble-sort/
-│   │   ├── quick-sort/
+│   ├── searching/
+│   │   ├── linear-search/
+│   │   │   ├── linear-search.ts
+│   │   │   └── linear-search.test.ts
+│   │   ├── binary-search/
 │   │   └── problems/
 │   │   └── ...
 ```
@@ -39,4 +41,4 @@ Each main topic (like arrays or sorting) is split into:
 - **Language:** TypeScript
 - **Package Manager:** pnpm
 - **Testing Framework:** Jest
-- **Runtime:** Node.js (v18+ recommended)
+- **Runtime:** Node.js (v18+)
