@@ -31,6 +31,7 @@
         }
       },
       "suspicious": {
+        "noBitwiseOperators": "off",
         "noConsole": {
           "level": "error",
           "options": {
