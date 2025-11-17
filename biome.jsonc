@@ -20,7 +20,8 @@
     "rules": {
       "style": {
         "useForOf": "off",
-        "useShorthandAssign": "off"
+        "useShorthandAssign": "off",
+        "noNonNullAssertion": "off"
       },
       "nursery": {
         "noIncrementDecrement": {
